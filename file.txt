@@ -1,0 +1,605 @@
+.
+├── adsp.b00
+├── adsp.b01
+├── adsp.b02
+├── adsp.b03
+├── adsp.b04
+├── adsp.b05
+├── adsp.b06
+├── adsp.b07
+├── adsp.b08
+├── adsp.b09
+├── adsp.b10
+├── adsp.b11
+├── adsp.b12
+├── adsp.b13
+├── adsp.mdt
+├── antithef.b00
+├── antithef.b01
+├── antithef.b02
+├── antithef.b03
+├── antithef.b04
+├── antithef.b05
+├── antithef.b06
+├── antithef.mdt
+├── can_fpc
+│   ├── fingerpr.b00
+│   ├── fingerpr.b01
+│   ├── fingerpr.b02
+│   ├── fingerpr.b03
+│   ├── fingerpr.b04
+│   ├── fingerpr.b05
+│   ├── fingerpr.b06
+│   └── fingerpr.mdt
+├── cmnlib64.b00
+├── cmnlib64.b01
+├── cmnlib64.b02
+├── cmnlib64.b03
+├── cmnlib64.b04
+├── cmnlib64.b05
+├── cmnlib64.mdt
+├── cmnlib.b00
+├── cmnlib.b01
+├── cmnlib.b02
+├── cmnlib.b03
+├── cmnlib.b04
+├── cmnlib.b05
+├── cmnlib.mdt
+├── cpe_9335.b00
+├── cpe_9335.b01
+├── cpe_9335.b10
+├── cpe_9335.b11
+├── cpe_9335.b13
+├── cpe_9335.b16
+├── cpe_9335.b18
+├── cpe_9335.b20
+├── cpe_9335.b21
+├── cpe_9335.b22
+├── cpe_9335.b24
+├── cpe_9335.b26
+├── cpe_9335.b28
+├── cpe_9335.b30
+├── cpe_9335.b31
+├── cpe_9335.mdt
+├── cppf.b00
+├── cppf.b01
+├── cppf.b02
+├── cppf.b03
+├── cppf.b04
+├── cppf.b05
+├── cppf.b06
+├── cppf.mdt
+├── dhsecapp.b00
+├── dhsecapp.b01
+├── dhsecapp.b02
+├── dhsecapp.b03
+├── dhsecapp.b04
+├── dhsecapp.b05
+├── dhsecapp.b06
+├── dhsecapp.mdt
+├── file.txt
+├── fpc
+│   ├── fingerpr.b00
+│   ├── fingerpr.b01
+│   ├── fingerpr.b02
+│   ├── fingerpr.b03
+│   ├── fingerpr.b04
+│   ├── fingerpr.b05
+│   ├── fingerpr.b06
+│   └── fingerpr.mdt
+├── gptest.b00
+├── gptest.b01
+├── gptest.b02
+├── gptest.b03
+├── gptest.b04
+├── gptest.b05
+├── gptest.b06
+├── gptest.mdt
+├── hwfido.b00
+├── hwfido.b01
+├── hwfido.b02
+├── hwfido.b03
+├── hwfido.b04
+├── hwfido.b05
+├── hwfido.b06
+├── hwfido.mdt
+├── ifaa.b00
+├── ifaa.b01
+├── ifaa.b02
+├── ifaa.b03
+├── ifaa.b04
+├── ifaa.b05
+├── ifaa.b06
+├── ifaa.mdt
+├── isdbtmm.b00
+├── isdbtmm.b01
+├── isdbtmm.b02
+├── isdbtmm.b03
+├── isdbtmm.b04
+├── isdbtmm.b05
+├── isdbtmm.b06
+├── isdbtmm.mdt
+├── mainfpr.b00
+├── mainfpr.b01
+├── mainfpr.b02
+├── mainfpr.b03
+├── mainfpr.b04
+├── mainfpr.b05
+├── mainfpr.b06
+├── mainfpr.mdt
+├── mba.mbn
+├── mdtp.b00
+├── mdtp.b01
+├── mdtp.b02
+├── mdtp.b03
+├── mdtp.b04
+├── mdtp.b05
+├── mdtp.b06
+├── mdtp.mdt
+├── modem.b00
+├── modem.b01
+├── modem.b02
+├── modem.b04
+├── modem.b05
+├── modem.b06
+├── modem.b07
+├── modem.b08
+├── modem.b09
+├── modem.b10
+├── modem.b11
+├── modem.b12
+├── modem.b13
+├── modem.b16
+├── modem.b17
+├── modem.b18
+├── modem.b19
+├── modem.b20
+├── modem.b21
+├── modem.mdt
+├── modem_pr
+│   └── mcfg
+│       └── configs
+│           ├── mcfg_hw
+│           │   └── generic
+│           │       └── common
+│           │           ├── default
+│           │           │   └── default
+│           │           │       └── mcfg_hw.mbn
+│           │           ├── msm8952
+│           │           │   ├── la
+│           │           │   │   ├── 7+1_mode
+│           │           │   │   │   └── sr_dsds
+│           │           │   │   │       └── mcfg_hw.mbn
+│           │           │   │   ├── 7+5_mode
+│           │           │   │   │   └── sr_dsds
+│           │           │   │   │       └── mcfg_hw.mbn
+│           │           │   │   └── ss
+│           │           │   │       └── mcfg_hw.mbn
+│           │           │   └── wp8
+│           │           │       ├── 7+1_mode
+│           │           │       │   └── sr_dsds
+│           │           │       │       └── mcfg_hw.mbn
+│           │           │       ├── 7+5_mode
+│           │           │       │   └── sr_dsds
+│           │           │       │       └── mcfg_hw.mbn
+│           │           │       └── ss
+│           │           │           └── mcfg_hw.mbn
+│           │           ├── msm8953
+│           │           │   ├── la
+│           │           │   │   ├── 7+1_mode
+│           │           │   │   │   └── sr_dsds
+│           │           │   │   │       └── mcfg_hw.mbn
+│           │           │   │   ├── 7+5_mode
+│           │           │   │   │   └── sr_dsds
+│           │           │   │   │       └── mcfg_hw.mbn
+│           │           │   │   └── ss
+│           │           │   │       └── mcfg_hw.mbn
+│           │           │   └── wp8
+│           │           │       ├── 7+1_mode
+│           │           │       │   └── sr_dsds
+│           │           │       │       └── mcfg_hw.mbn
+│           │           │       ├── 7+5_mode
+│           │           │       │   └── sr_dsds
+│           │           │       │       └── mcfg_hw.mbn
+│           │           │       └── ss
+│           │           │           └── mcfg_hw.mbn
+│           │           └── qrd8952
+│           │               ├── la
+│           │               │   ├── 7+1_mode
+│           │               │   │   ├── sr_dsds
+│           │               │   │   │   ├── normal
+│           │               │   │   │   │   └── mcfg_hw.mbn
+│           │               │   │   │   └── srlte
+│           │               │   │   │       └── mcfg_hw.mbn
+│           │               │   │   └── ss
+│           │               │   │       ├── normal
+│           │               │   │       │   └── mcfg_hw.mbn
+│           │               │   │       └── srlte
+│           │               │   │           └── mcfg_hw.mbn
+│           │               │   └── 7+5_mode
+│           │               │       └── sr_dsds
+│           │               │           └── mcfg_hw.mbn
+│           │               └── wp8
+│           │                   ├── 7+1_mode
+│           │                   │   ├── sr_dsds
+│           │                   │   │   ├── normal
+│           │                   │   │   │   └── mcfg_hw.mbn
+│           │                   │   │   └── srlte
+│           │                   │   │       └── mcfg_hw.mbn
+│           │                   │   └── ss
+│           │                   │       ├── normal
+│           │                   │       │   └── mcfg_hw.mbn
+│           │                   │       └── srlte
+│           │                   │           └── mcfg_hw.mbn
+│           │                   └── 7+5_mode
+│           │                       └── sr_dsds
+│           │                           └── mcfg_hw.mbn
+│           └── mcfg_sw
+│               └── generic
+│                   └── oem
+│                       ├── airtel_i
+│                       │   └── airtel_v
+│                       │       └── mcfg_sw.mbn
+│                       ├── ais_spcs
+│                       │   └── volte
+│                       │       └── ais
+│                       │           └── mcfg_sw.mbn
+│                       ├── att_la
+│                       │   └── volte
+│                       │       └── att_mexi
+│                       │           └── mcfg_sw.mbn
+│                       ├── byt_eu
+│                       │   └── volte
+│                       │       └── byt
+│                       │           └── mcfg_sw.mbn
+│                       ├── ca_bell
+│                       │   └── non_volt
+│                       │       ├── ca_bell
+│                       │       │   └── mcfg_sw.mbn
+│                       │       └── videotro
+│                       │           └── mcfg_sw.mbn
+│                       ├── celcom_s
+│                       │   └── malay_vl
+│                       │       └── mcfg_sw.mbn
+│                       ├── claro_la
+│                       │   └── non_volt
+│                       │       ├── claro_ch
+│                       │       │   └── mcfg_sw.mbn
+│                       │       ├── claro_ec
+│                       │       │   └── mcfg_sw.mbn
+│                       │       ├── claro_la
+│                       │       │   └── mcfg_sw.mbn
+│                       │       └── claro_pe
+│                       │           └── mcfg_sw.mbn
+│                       ├── cmcc
+│                       │   └── commerci
+│                       │       └── volte_op
+│                       │           └── mcfg_sw.mbn
+│                       ├── cmcciot
+│                       │   └── lab
+│                       │       ├── eps_only
+│                       │       │   └── mcfg_sw.mbn
+│                       │       ├── nsiot_vo
+│                       │       │   └── mcfg_sw.mbn
+│                       │       ├── tgl_comb
+│                       │       │   └── mcfg_sw.mbn
+│                       │       └── w_irat_c
+│                       │           └── mcfg_sw.mbn
+│                       ├── ct
+│                       │   └── commerci
+│                       │       └── openmkt
+│                       │           └── mcfg_sw.mbn
+│                       ├── cta
+│                       │   └── lab
+│                       │       ├── cta_cmcc
+│                       │       │   └── mcfg_sw.mbn
+│                       │       └── cta_ct
+│                       │           └── mcfg_sw.mbn
+│                       ├── cu
+│                       │   └── commerci
+│                       │       └── openmkt
+│                       │           └── mcfg_sw.mbn
+│                       ├── dtac_spc
+│                       │   └── thailand
+│                       │       └── mcfg_sw.mbn
+│                       ├── dt_eu
+│                       │   ├── nvl_dt_d
+│                       │   │   └── cm
+│                       │   │       └── mcfg_sw.mbn
+│                       │   ├── nvl_sk_m
+│                       │   │   └── cm
+│                       │   │       └── mcfg_sw.mbn
+│                       │   └── volte
+│                       │       ├── germany
+│                       │       │   └── mcfg_sw.mbn
+│                       │       └── greece
+│                       │           └── mcfg_sw.mbn
+│                       ├── ee_eu
+│                       │   └── ee_uk_nv
+│                       │       └── mcfg_sw.mbn
+│                       ├── ft_franc
+│                       │   └── commerci
+│                       │       └── france
+│                       │           └── mcfg_sw.mbn
+│                       ├── ft_spain
+│                       │   └── commerci
+│                       │       └── spain
+│                       │           └── mcfg_sw.mbn
+│                       ├── generic_
+│                       │   └── generic_
+│                       │       └── mcfg_sw.mbn
+│                       ├── h3g_eu
+│                       │   └── nonvolte
+│                       │       └── h3g_irl
+│                       │           └── mcfg_sw.mbn
+│                       ├── h3g_uk
+│                       │   └── volte
+│                       │       └── uk
+│                       │           └── mcfg_sw.mbn
+│                       ├── ice_la
+│                       │   └── non_volt
+│                       │       └── ice_cost
+│                       │           └── mcfg_sw.mbn
+│                       ├── idea_ind
+│                       │   └── idea_vol
+│                       │       └── mcfg_sw.mbn
+│                       ├── jpn_ch
+│                       │   └── jpn_chnl
+│                       │       └── mcfg_sw.mbn
+│                       ├── kddi
+│                       │   └── commerci
+│                       │       └── mcfg_sw.mbn
+│                       ├── m1_spcse
+│                       │   └── singapor
+│                       │       └── mcfg_sw.mbn
+│                       ├── mgf_russ
+│                       │   └── russia_v
+│                       │       └── mcfg_sw.mbn
+│                       ├── mov_ecu
+│                       │   └── non_volt
+│                       │       └── mov_ecu
+│                       │           └── mcfg_sw.mbn
+│                       ├── movistar
+│                       │   └── volte
+│                       │       ├── col_movi
+│                       │       │   └── mcfg_sw.mbn
+│                       │       └── peru_mov
+│                       │           └── mcfg_sw.mbn
+│                       ├── mtn_mea
+│                       │   ├── non_volt
+│                       │   │   └── mtn_sa
+│                       │   │       └── mcfg_sw.mbn
+│                       │   └── volte
+│                       │       └── mtn_sa
+│                       │           └── mcfg_sw.mbn
+│                       ├── natcom_n
+│                       │   └── nigeria_
+│                       │       └── mcfg_sw.mbn
+│                       ├── orange
+│                       │   └── orange_n
+│                       │       └── mcfg_sw.mbn
+│                       ├── prox_be
+│                       │   └── prox_vl
+│                       │       └── mcfg_sw.mbn
+│                       ├── rjio_ind
+│                       │   └── reliance
+│                       │       └── mcfg_sw.mbn
+│                       ├── rogers_l
+│                       │   └── volte
+│                       │       └── rogers
+│                       │           └── mcfg_sw.mbn
+│                       ├── row
+│                       │   └── gen_3gpp
+│                       │       └── mcfg_sw.mbn
+│                       ├── sfr_eu
+│                       │   ├── non_volt
+│                       │   │   └── sfr_eu
+│                       │   │       └── mcfg_sw.mbn
+│                       │   └── volte
+│                       │       └── france
+│                       │           └── mcfg_sw.mbn
+│                       ├── sfr_fr
+│                       │   └── volte
+│                       │       └── france
+│                       │           └── mcfg_sw.mbn
+│                       ├── sgt_spcs
+│                       │   └── volte
+│                       │       └── singtel
+│                       │           └── mcfg_sw.mbn
+│                       ├── swisscom
+│                       │   └── swiss_vl
+│                       │       └── mcfg_sw.mbn
+│                       ├── telcel_m
+│                       │   └── non_volt
+│                       │       └── telcel_m
+│                       │           └── mcfg_sw.mbn
+│                       ├── tel_de
+│                       │   └── volte
+│                       │       └── de
+│                       │           └── mcfg_sw.mbn
+│                       ├── tele2_eu
+│                       │   └── netherla
+│                       │       └── mcfg_sw.mbn
+│                       ├── telecomt
+│                       │   └── lab
+│                       │       └── telecomt
+│                       │           └── mcfg_sw.mbn
+│                       ├── telenor_
+│                       │   └── norway_v
+│                       │       └── mcfg_sw.mbn
+│                       ├── tel_eu
+│                       │   └── non_volt
+│                       │       └── spain
+│                       │           └── mcfg_sw.mbn
+│                       ├── tel_la
+│                       │   └── non_volt
+│                       │       └── tef_la
+│                       │           └── mcfg_sw.mbn
+│                       ├── tel_spai
+│                       │   └── volte
+│                       │       └── spain
+│                       │           └── mcfg_sw.mbn
+│                       ├── tigo_gt
+│                       │   └── volte
+│                       │       └── tigo_gt
+│                       │           └── mcfg_sw.mbn
+│                       ├── tim_eu
+│                       │   └── volte
+│                       │       └── italy
+│                       │           └── mcfg_sw.mbn
+│                       ├── tim_ital
+│                       │   └── volte
+│                       │       └── italy
+│                       │           └── mcfg_sw.mbn
+│                       ├── tkom_spc
+│                       │   └── tkom_sa_
+│                       │       └── mcfg_sw.mbn
+│                       ├── true_tha
+│                       │   └── volte
+│                       │       └── true_tha
+│                       │           └── mcfg_sw.mbn
+│                       ├── turkey_c
+│                       │   └── non_volt
+│                       │       └── turkey
+│                       │           └── mcfg_sw.mbn
+│                       ├── vdc_sa
+│                       │   └── vdc_vl
+│                       │       └── mcfg_sw.mbn
+│                       ├── vdf_au
+│                       │   └── nonvolte
+│                       │       └── vdf_au
+│                       │           └── mcfg_sw.mbn
+│                       ├── vdf_de
+│                       │   └── volte
+│                       │       └── de
+│                       │           └── mcfg_sw.mbn
+│                       ├── vdf_eu
+│                       │   └── volte
+│                       │       ├── al
+│                       │       │   └── mcfg_sw.mbn
+│                       │       ├── belgium
+│                       │       │   └── mcfg_sw.mbn
+│                       │       ├── ch
+│                       │       │   └── mcfg_sw.mbn
+│                       │       ├── cz
+│                       │       │   └── mcfg_sw.mbn
+│                       │       ├── de
+│                       │       │   └── mcfg_sw.mbn
+│                       │       ├── grrozanl
+│                       │       │   └── mcfg_sw.mbn
+│                       │       ├── hungary
+│                       │       │   └── mcfg_sw.mbn
+│                       │       ├── italy
+│                       │       │   └── mcfg_sw.mbn
+│                       │       ├── portugal
+│                       │       │   └── mcfg_sw.mbn
+│                       │       └── spain
+│                       │           └── mcfg_sw.mbn
+│                       ├── vdf_ital
+│                       │   └── volte
+│                       │       └── italy
+│                       │           └── mcfg_sw.mbn
+│                       ├── vdf_nl
+│                       │   └── volte
+│                       │       └── netherla
+│                       │           └── mcfg_sw.mbn
+│                       ├── vdf_port
+│                       │   └── volte
+│                       │       └── portugal
+│                       │           └── mcfg_sw.mbn
+│                       ├── vdf_spai
+│                       │   └── volte
+│                       │       └── spain
+│                       │           └── mcfg_sw.mbn
+│                       ├── webe_spc
+│                       │   └── volte
+│                       │       └── webe
+│                       │           └── mcfg_sw.mbn
+│                       └── wind-eu
+│                           └── non_volt
+│                               └── wind_itl
+│                                   └── mcfg_sw.mbn
+├── qdsp6m.qdb
+├── qmpsecap.b00
+├── qmpsecap.b01
+├── qmpsecap.b02
+├── qmpsecap.b03
+├── qmpsecap.b04
+├── qmpsecap.b05
+├── qmpsecap.b06
+├── qmpsecap.mdt
+├── securemm.b00
+├── securemm.b01
+├── securemm.b02
+├── securemm.b03
+├── securemm.b04
+├── securemm.b05
+├── securemm.b06
+├── securemm.mdt
+├── secure_s.b00
+├── secure_s.b01
+├── secure_s.b02
+├── secure_s.b03
+├── secure_s.b04
+├── secure_s.b05
+├── secure_s.b06
+├── secure_s.mdt
+├── signtool.b00
+├── signtool.b01
+├── signtool.b02
+├── signtool.b03
+├── signtool.b04
+├── signtool.b05
+├── signtool.b06
+├── signtool.mdt
+├── smplap32.b00
+├── smplap32.b01
+├── smplap32.b02
+├── smplap32.b03
+├── smplap32.b04
+├── smplap32.b05
+├── smplap32.b06
+├── smplap32.mdt
+├── smplap64.b00
+├── smplap64.b01
+├── smplap64.b02
+├── smplap64.b03
+├── smplap64.b04
+├── smplap64.b05
+├── smplap64.b06
+├── smplap64.mdt
+├── syna
+│   ├── fingerpr.b00
+│   ├── fingerpr.b01
+│   ├── fingerpr.b02
+│   ├── fingerpr.b03
+│   ├── fingerpr.b04
+│   ├── fingerpr.b05
+│   ├── fingerpr.b06
+│   └── fingerpr.mdt
+├── venus.b00
+├── venus.b01
+├── venus.b02
+├── venus.b03
+├── venus.b04
+├── venus.mdt
+├── wcnss.b00
+├── wcnss.b01
+├── wcnss.b02
+├── wcnss.b04
+├── wcnss.b06
+├── wcnss.b09
+├── wcnss.b10
+├── wcnss.b11
+├── wcnss.b12
+├── wcnss.mdt
+├── widevine.b00
+├── widevine.b01
+├── widevine.b02
+├── widevine.b03
+├── widevine.b04
+├── widevine.b05
+├── widevine.b06
+└── widevine.mdt
+
+257 directories, 345 files
